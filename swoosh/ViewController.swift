@@ -10,8 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mensButton: UIButton!
+    @IBOutlet weak var womensButton: UIButton!
+    @IBOutlet weak var coedButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //mensButton.layer.cornerRadius = 10
+        mensButton.layer.borderWidth = 2
+        mensButton.layer.borderColor = UIColor.white.cgColor
+        womensButton.layer.borderWidth = 2
+        womensButton.layer.borderColor = UIColor.white.cgColor
+        coedButton.layer.borderWidth = 2
+        coedButton.layer.borderColor = UIColor.white.cgColor
+        nextButton.layer.borderWidth = 2
+        nextButton.layer.borderColor = UIColor.white.cgColor
     }
 
     override func didReceiveMemoryWarning() {
