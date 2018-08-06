@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10183922118BC1600C8CE11 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10183912118BC1600C8CE11 /* ChoiceViewController.swift */; };
 		D173BA872117313000A1CBCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173BA862117313000A1CBCD /* AppDelegate.swift */; };
 		D173BA892117313000A1CBCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173BA882117313000A1CBCD /* ViewController.swift */; };
 		D173BA8C2117313000A1CBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D173BA8A2117313000A1CBCD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D10183912118BC1600C8CE11 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		D173BA832117313000A1CBCD /* swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D173BA862117313000A1CBCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D173BA882117313000A1CBCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				D173BA862117313000A1CBCD /* AppDelegate.swift */,
 				D173BA882117313000A1CBCD /* ViewController.swift */,
+				D10183912118BC1600C8CE11 /* ChoiceViewController.swift */,
 				D173BA8A2117313000A1CBCD /* Main.storyboard */,
 				D173BA8D2117313100A1CBCD /* Assets.xcassets */,
 				D173BA8F2117313100A1CBCD /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10183922118BC1600C8CE11 /* ChoiceViewController.swift in Sources */,
 				D173BA892117313000A1CBCD /* ViewController.swift in Sources */,
 				D173BA872117313000A1CBCD /* AppDelegate.swift in Sources */,
 			);
