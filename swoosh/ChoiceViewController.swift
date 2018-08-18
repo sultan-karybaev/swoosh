@@ -19,13 +19,14 @@ class ChoiceViewController: UIViewController {
         super.viewDidLoad()
         
         //mensButton.layer.cornerRadius = 10
-        mensButton.layer.borderWidth = 2
-        mensButton.layer.borderColor = UIColor.white.cgColor
-        womensButton.layer.borderWidth = 2
-        womensButton.layer.borderColor = UIColor.white.cgColor
-        coedButton.layer.borderWidth = 2
-        coedButton.layer.borderColor = UIColor.white.cgColor
-        nextButton.layer.borderWidth = 2
-        nextButton.layer.borderColor = UIColor.white.cgColor
+        
+//        mensButton.layer.borderWidth = 2
+//        mensButton.layer.borderColor = UIColor.white.cgColor
+//        womensButton.layer.borderWidth = 2
+//        womensButton.layer.borderColor = UIColor.white.cgColor
+//        coedButton.layer.borderWidth = 2
+//        coedButton.layer.borderColor = UIColor.white.cgColor
+//        nextButton.layer.borderWidth = 2
+//        nextButton.layer.borderColor = UIColor.white.cgColor
     }
 }

@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        getstartedButton.layer.borderWidth = 2
-        getstartedButton.layer.borderColor = UIColor.white.cgColor
+//        getstartedButton.layer.borderWidth = 2
+//        getstartedButton.layer.borderColor = UIColor.white.cgColor
     }
 
     override func didReceiveMemoryWarning() {
