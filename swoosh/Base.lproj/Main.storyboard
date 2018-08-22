@@ -196,10 +196,20 @@
                                     <segue destination="5R0-4M-WdH" kind="unwind" unwindAction="unwindSWithUnwindSegue:" id="WDA-KK-KS9"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPE-0p-vQn">
+                                <rect key="frame" x="188" y="124" width="0.0" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="xF8-bd-0l7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DNC-35-JoW" firstAttribute="top" secondItem="EFE-6m-2dw" secondAttribute="bottom" constant="46" id="4IU-2D-XW9"/>
+                            <constraint firstItem="VPE-0p-vQn" firstAttribute="centerX" secondItem="O8h-Jp-euy" secondAttribute="centerX" id="D7d-zN-qJd"/>
                             <constraint firstItem="jOj-Eb-zQe" firstAttribute="top" secondItem="O8h-Jp-euy" secondAttribute="top" id="KGP-Pg-gFy"/>
                             <constraint firstItem="jOj-Eb-zQe" firstAttribute="leading" secondItem="O8h-Jp-euy" secondAttribute="leading" id="O4v-hu-GMy"/>
                             <constraint firstItem="EFE-6m-2dw" firstAttribute="centerX" secondItem="O8h-Jp-euy" secondAttribute="centerX" id="R0W-y9-IS1"/>
@@ -210,10 +220,12 @@
                             <constraint firstItem="50M-Yu-0vc" firstAttribute="top" secondItem="J5c-cC-19z" secondAttribute="bottom" constant="80" id="lOZ-Bs-PTa"/>
                             <constraint firstAttribute="trailing" secondItem="50M-Yu-0vc" secondAttribute="trailing" id="nZv-Sr-gr5"/>
                             <constraint firstItem="J5c-cC-19z" firstAttribute="top" secondItem="OS9-cm-5Jx" secondAttribute="bottom" constant="4" id="qcK-6w-vQy"/>
+                            <constraint firstItem="VPE-0p-vQn" firstAttribute="top" secondItem="J5c-cC-19z" secondAttribute="bottom" constant="8" id="zZk-55-7dJ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="de" destination="pRI-dz-JQt" id="XrO-N9-cc8"/>
+                        <outlet property="leagueLabel" destination="VPE-0p-vQn" id="PiZ-uX-st1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDM-vo-ufl" userLabel="First Responder" sceneMemberID="firstResponder"/>
